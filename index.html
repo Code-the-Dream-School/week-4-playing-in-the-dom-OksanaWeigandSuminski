@@ -15,15 +15,17 @@
     <div class="question-container">
       <div class="question-item">
         <div class="question-label">Question 1: if you click the square below the text changes 'x' to 'o' or vice versa </div>
-        <div id="a-1"></div>
+        <button id = "toggleAnswer">Hide Question 1</button>
+        <div id="a-1" class="square">x</div>
       </div>
       <div class="question-item">
         <div class="question-label">Question 2: select any item on the list below and click the remove button to eliminate the item</div>
-        <div id="a-2"></div>
-      </div>
+        <button id = "toggleAnswer2">Hide Question 2</button>
+        <div id="a-2" class="colors"></div>
       <div class="question-item">
         <div class="question-label">Question 3: insert the radius of a sphere and press the calculate button to see the results</div>
-        <div id="a-3">
+        <button id = "toggleAnswer3">Hide Question 3</button>
+        <div id="a-3" class = "sphere">
           <form action="" method="post" id="MyForm">
             <label for="radius">Radius </label><input type="text" name="radius" id="radius" required>
             <label for="volume">Volume </label><input type="text" name="volume" id="volume">
